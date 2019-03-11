@@ -98,17 +98,17 @@
 
 
 
-  <meta name="description" content="[toc] ABB.1haha B.2heihei C">
+  <meta name="description" content="[toc] ABB.1haha">
 <meta property="og:type" content="article">
 <meta property="og:title" content="sunboy">
 <meta property="og:url" content="http://yoursite.com/2019/03/11/test/index.html">
 <meta property="og:site_name" content="sunboy">
-<meta property="og:description" content="[toc] ABB.1haha B.2heihei C">
+<meta property="og:description" content="[toc] ABB.1haha">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-10T16:08:55.241Z">
+<meta property="og:updated_time" content="2019-03-11T03:33:54.027Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="sunboy">
-<meta name="twitter:description" content="[toc] ABB.1haha B.2heihei C">
+<meta name="twitter:description" content="[toc] ABB.1haha">
 
 
 
@@ -385,7 +385,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="sunboy">
       <meta itemprop="description" content>
-      <meta itemprop="image" content="/images/header.png">
+      <meta itemprop="image" content="/images/header.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -423,7 +423,7 @@
                 
               
 
-              <time title="创建时间：2019-03-11 00:08:55" itemprop="dateCreated datePublished" datetime="2019-03-11T00:08:55+08:00">2019-03-11</time>
+              <time title="创建时间：2019-03-11 11:33:54" itemprop="dateCreated datePublished" datetime="2019-03-11T11:33:54+08:00">2019-03-11</time>
             
 
             
@@ -459,7 +459,7 @@
 
       
         <p>[toc]</p>
-<h1 id="A"><a href="#A" class="headerlink" title="A"></a>A</h1><h1 id="B"><a href="#B" class="headerlink" title="B"></a>B</h1><h2 id="B-1"><a href="#B-1" class="headerlink" title="B.1"></a>B.1</h2><p>haha</p>
+<h1 id="A"><a href="#A" class="headerlink" title="A"></a>A</h1><h1 id="B"><a href="#B" class="headerlink" title="B"></a>B</h1><h2 id="B-1"><a href="#B-1" class="headerlink" title="B.1"></a>B.1</h2><p>haha<br><a id="more"></a></p>
 <h2 id="B-2"><a href="#B-2" class="headerlink" title="B.2"></a>B.2</h2><p>heihei</p>
 <h1 id="C"><a href="#C" class="headerlink" title="C"></a>C</h1>
       
@@ -491,15 +491,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/03/10/hello-world/" rel="next" title="Hello World">
-                <i class="fa fa-chevron-left"></i> Hello World
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/03/11/hello-world/" rel="prev" title="Hello World">
+                Hello World <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -557,7 +557,7 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
-              <img class="site-author-image" itemprop="image" src="/images/header.png" alt="sunboy">
+              <img class="site-author-image" itemprop="image" src="/images/header.jpg" alt="sunboy">
             
               <p class="site-author-name" itemprop="name">sunboy</p>
               <div class="site-description motion-element" itemprop="description"></div>
@@ -577,13 +577,75 @@
               
 
               
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
               
             </nav>
           
 
           
 
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://github.com/sunzhaochang" title="GitHub &rarr; https://github.com/sunzhaochang" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:zhchsun1992@gmail.com" title="E-Mail &rarr; mailto:zhchsun1992@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+            </div>
           
 
           
@@ -775,7 +837,7 @@
     var isfetched = false;
     var isXml = true;
     // Search DB path;
-    var search_path = "search.html";
+    var search_path = "search.xml";
     if (search_path.length === 0) {
       search_path = "search.xml";
     } else if (/json$/i.test(search_path)) {
